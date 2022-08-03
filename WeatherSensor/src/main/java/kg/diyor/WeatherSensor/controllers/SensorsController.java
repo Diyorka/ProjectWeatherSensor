@@ -3,6 +3,7 @@ package kg.diyor.WeatherSensor.controllers;
 import kg.diyor.WeatherSensor.dto.SensorDTO;
 import kg.diyor.WeatherSensor.models.Sensor;
 import kg.diyor.WeatherSensor.services.SensorService;
+import kg.diyor.WeatherSensor.util.MeasurementErrorResponse;
 import kg.diyor.WeatherSensor.util.MeasurementException;
 import kg.diyor.WeatherSensor.util.SensorValidator;
 import org.modelmapper.ModelMapper;
